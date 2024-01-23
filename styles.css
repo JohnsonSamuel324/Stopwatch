@@ -42,7 +42,3 @@ button {
     border-radius: 6px;
     cursor: pointer;
 }
-
-#btn-start:hover {
-    background-color: #e5ffe5;
-}
