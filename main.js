@@ -3,7 +3,6 @@ let watchMins = 0;
 let timer = null;
 
 function startWatch() {
-    document.getElementById('btn-start').style.backgroundColor = '#007f00';
     timer = setInterval(function () {
         let strSecs = "";
         let strMins = "";
