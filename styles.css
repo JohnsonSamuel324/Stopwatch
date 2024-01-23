@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #fea600;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btns-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+button {
+    background-color: transparent;
+    border: 1px white solid;
+    padding: 1rem 3.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btn-start:hover {
+    background-color: #e5ffe5;
+}
